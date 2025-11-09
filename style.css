@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+#header {
+    background: rgba(255, 144, 14, 0.10);
+}
+
+.nav {
+    text-decoration: none;
+    color: var(--Dark-02, #424242);
+
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 144.444% */
+
+}
+
+.nav-logo {
+    color: var(--Dark-01, #131313);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#nav {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: px;
+}
+
+.gap {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-brand {
+    max-width: 862px;
+    margin: auto;
+    margin-top: 116px;
+}
+
+.nav-brand-h2 {
+    color: var(--Dark-01, #131313);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav-brand-p {
+    color: var(--Dark-03, #727272);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.nav-brand-img {
+    max-width: 1440px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+.button {
+    padding: 20px 25px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    outline: none;
+}
+
+.button:hover {
+    background: #f4911f;
+    margin: auto;
+}
+
+#button {
+    text-align: center;
+    margin-top: 32px;
+}
+
+/* client */
+.client-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 73px;
+}
+
+.client-section-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.OurFeatures {
+    max-width: 537px;
+    margin-top: 287px;
+}
+
+.client-img {
+    max-width: 342px;
+}
+
+.OurFeatur-1 {
+    color: var(--Dark-03, #727272);
+    font-family: "Work Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.OurFeatur-2 {
+    color: var(--Dark-01, #131313);
+    font-family: "Work Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.OurFeatur-3 {
+    color: #FF900E;
+    font-family: "Work Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.OurFeature-p {
+    color: var(--Dark-03, #727272);
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+/* enjoy */
+.enjoy {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1440px;
+
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.enjoy-img {
+    position: relative;
+}
+
+.enjoy-Experience {
+    position: absolute;
+    padding: 45px 42px;
+    margin-top: -120px;
+    margin-left: -100px;
+    text-align: center;
+    border-radius: 8px;
+    background: #FF900E;
+}
+
+.enjoy-year {
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    /* 107.692% */
+}
+
+.enjoy-Experiences {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+.enjoy-text {
+    max-width: 586px;
+
+}
+
+.enjoy-h3 {
+    color: var(--Dark-01, #131313);
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.enjoy-version {
+    padding: 3px 33px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-top: 20px;
+}
+
+.enjoy-btn {
+    border: none;
+    outline: none;
+    padding: 45px 42px;
+    display: block;
+    margin-top: -100px;
+    margin-left: -100px;
+    border-radius: 8px;
+    background: #FF900E;
+    z-index: 2;
+}
+
+.enjoy-btn-year {
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    /* 107.692% */
+}
+
+.enjoy-btn-ex {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+/* SomeFacts */
+.SomeFacts {
+
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.SomeFacts-img {
+    padding: 35px 30px;
+    border: 1px solid #FF900E;
+    max-width: 241px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+}
+
+.SomeFacts-imges {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 124px;
+    margin: 100px auto;
+}
+
+/* Sponspors */
+.Sponspors {
+    max-width: 542px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.OurSponspors {
+    display: flex;
+    gap: 155px;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+
+}
+
+/* footer */
+.footer {
+    max-width: 1440px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    margin: 0 auto;
+    padding: 39px 0;
+    margin-top: 130px;
+    margin-bottom: 216px;
+
+}
